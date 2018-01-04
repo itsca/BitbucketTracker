@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+# This hook is called with the following parameters:
+#
+# $1 -- Name of the remote to which the push is being done
+# $2 -- URL to which the push is being done
+
+import sys, os, subprocess
+
+# # The notifier function
+# def notify(title, subtitle, message):
+#     t = '-title {!r}'.format(title)
+#     s = '-subtitle {!r}'.format(subtitle)
+#     m = '-message {!r}'.format(message)
+#     os.system('terminal-notifier {}'.format(' '.join([m, t, s])))
+
+# # Calling the function
+# notify(title    = 'Git hook',
+#        subtitle = 'pre push',
+#        message  = 'python called!')
+print('going to push')
+sys.exit(0)
+
+# name_of_remote = sys.argv[1]
+# url_of_push = sys.argv[2]
+# tracker_File_Path = "/Users/jescalante/Desktop/Proyectos/personal/GithubTrackerFile/githubLogger.py"
+
+# subprocess.call(["python", "/Users/jescalante/Desktop/Proyectos/personal/GithubTrackerFile/githubLogger.py"])    
+
+# print(name_of_remote)
+# print(name_of_remote)

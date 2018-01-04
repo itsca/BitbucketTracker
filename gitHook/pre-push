@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+
+# This hook is called with the following parameters:
+#
+# $1 -- Name of the remote to which the push is being done
+# $2 -- URL to which the push is being done
+
+import sys, os
+
+name_of_remote = sys.argv[1]
+url_of_push = sys.argv[2]
+
+print(name_of_remote)
+print(name_of_remote)
