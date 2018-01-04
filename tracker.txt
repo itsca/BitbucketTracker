@@ -1,4 +1,11 @@
-Bitbucket contributions tracker
-New line test
-New line test
-New line test
+Bitbucket Contributions Tracker
+Javier Escalante.
+
+This file is a tracker of all contributions I made to my jobs
+private bitbucket repositories, it uses a python script and a git hook to make the logs and push them automatically.
+
+Contributions:
+
+
+2018-01-04Created a private contribution on a bitbucket repository.
+
