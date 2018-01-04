@@ -1,3 +1,4 @@
 Bitbucket contributions tracker
 New line test
 New line test
+New line test
