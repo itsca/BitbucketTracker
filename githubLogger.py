@@ -3,7 +3,7 @@ import sys, os, subprocess, datetime
 print('LOGGER')
 
 tracker_File_Path = "./tracker.txt"
-contribution_date = str(datetime.datetime.now())
+contribution_date = str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 with open(tracker_File_Path, 'a') as the_tracker_file:
     the_tracker_file.write("\n")    
