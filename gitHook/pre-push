@@ -2,11 +2,6 @@
 
 import sys, os, subprocess
 
-name_of_remote = sys.argv[1]
-url_of_push = sys.argv[2]
-print(sys.argv)
-print('name_of_remote' + name_of_remote)
-print('url_of_push' + name_of_remote)
 print('Going to logger')
 changes = subprocess.check_output(['git', 'diff', '--stat', 'HEAD^', 'HEAD'])
 changesParsed = str(changes).split("\n")[-2]
