@@ -5,6 +5,6 @@ import sys, os, subprocess
 print('Going to logger')
 changes = subprocess.check_output(['git', 'diff', '--stat', 'HEAD^', 'HEAD'])
 changesParsed = str(changes).split("\n")[-2]
-os.chdir("/Users/jescalante/Desktop/Proyectos/personal/GithubTrackerFile/")
+os.chdir("PATH_TO_YOUR_FILE")
 subprocess.call(["python", "./githubLogger.py", changesParsed])
 sys.exit(0)
